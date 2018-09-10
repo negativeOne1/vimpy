@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 # dydrmntion@gmail.com ~ 2013
-
 import re
 import logging
 
 import vim
 
-from util import ModuleImporter
+from .util import ModuleImporter
 
 logger = logging.getLogger(__name__)
 

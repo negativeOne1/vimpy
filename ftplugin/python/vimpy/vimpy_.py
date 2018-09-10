@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 # dydrmntion@gmail.com ~ 2013
-
-import logging
 import re
-from StringIO import StringIO
+import logging
+
+from io import StringIO
 
 import vim
-from pyflakes import reporter, api
 
 from vimpy import buffer_, util
+from pyflakes import api, reporter
 
 logger = logging.getLogger(__name__)
 
